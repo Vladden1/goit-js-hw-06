@@ -14,5 +14,4 @@ ingredients.forEach((ingredient) => {
 
   firstItem.textContent = ingredient;
   list.append(firstItem);
-  console.log(firstItem);
 });
