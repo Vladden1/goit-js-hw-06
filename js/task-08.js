@@ -9,7 +9,7 @@ function onFormSubmit(event) {
     elements: { email, password },
   } = event.currentTarget;
 
-  if (email.value === "" || password.value === "") {
+  if (email.value.trim() === "" || password.value.trim() === "") {
     return alert("All fields must be filled!");
   } else {
     userData.email = email.value;
