@@ -2,9 +2,6 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-const divEL = document.querySelector("#controls");
-console.log(divEL);
-
 const inputEl = document.querySelector(`[type='number']`);
 console.log(inputEl);
 

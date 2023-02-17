@@ -17,6 +17,6 @@ ingredients.forEach((ingredient) => {
   firstItem.textContent = ingredient;
 
   listElements.push(firstItem);
-
-  list.append(...listElements);
 });
+
+list.append(...listElements);

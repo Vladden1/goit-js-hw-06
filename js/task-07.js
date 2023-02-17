@@ -1,7 +1,8 @@
 const sliderEl = document.querySelector("#font-size-control");
 const textEl = document.querySelector("#text");
-console.log(sliderEl);
+textEl.style.fontSize = "40px";
 
+console.group(textEl);
 sliderEl.addEventListener("input", () => {
   textEl.style.fontSize = sliderEl.value + "px";
 });
